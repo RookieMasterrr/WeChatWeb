@@ -1,0 +1,107 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "201692",
+      "name": "3.1 好友",
+      "font_class": "31haoyou",
+      "unicode": "f0226",
+      "unicode_decimal": 983590
+    },
+    {
+      "icon_id": "879167",
+      "name": "盒子",
+      "font_class": "ego-box",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "3552293",
+      "name": "小程序",
+      "font_class": "xiaochengxu",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "4553742",
+      "name": "文件",
+      "font_class": "wenjian",
+      "unicode": "e7e0",
+      "unicode_decimal": 59360
+    },
+    {
+      "icon_id": "5387522",
+      "name": "关闭",
+      "font_class": "guanbi",
+      "unicode": "eaf2",
+      "unicode_decimal": 60146
+    },
+    {
+      "icon_id": "5387761",
+      "name": "手机_o",
+      "font_class": "shouji_o",
+      "unicode": "eb4d",
+      "unicode_decimal": 60237
+    },
+    {
+      "icon_id": "9261159",
+      "name": "看一看",
+      "font_class": "kanyikan",
+      "unicode": "e6a2",
+      "unicode_decimal": 59042
+    },
+    {
+      "icon_id": "11490918",
+      "name": "最小化",
+      "font_class": "zuixiaohua",
+      "unicode": "e650",
+      "unicode_decimal": 58960
+    },
+    {
+      "icon_id": "12814345",
+      "name": "最大化",
+      "font_class": "zuidahua",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "16364339",
+      "name": "朋友圈",
+      "font_class": "pengyouquan",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    },
+    {
+      "icon_id": "17868589",
+      "name": "更多",
+      "font_class": "gengduo",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "19877101",
+      "name": "气泡",
+      "font_class": "qipao",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "26918241",
+      "name": "搜一搜",
+      "font_class": "souyisou1-copy",
+      "unicode": "e516",
+      "unicode_decimal": 58646
+    },
+    {
+      "icon_id": "39051191",
+      "name": "042_视频号",
+      "font_class": "a-042_shipinhao",
+      "unicode": "e6dd",
+      "unicode_decimal": 59101
+    }
+  ]
+}
