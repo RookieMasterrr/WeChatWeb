@@ -7,20 +7,24 @@
             </div>
         </header>
         <section>
-            <ChatRecords />
+            <ChatRecords v-for="record in records" :key="record.id" :avatarUrl="record.avatarUrl" :title="record.title"
+                :time="record.time" :content="record.content" />
         </section>
     </div>
 </template>
 
 <script setup lang="ts">
 import ChatRecords from './ChatRecords.vue';
+
+import { records } from '@/datas/records.js'
+
 </script>
 
 <style scoped>
 .friendbar {
     height: 100vh;
     width: 370px;
-    background-color: lightgoldenrodyellow;
+    background-color: #f6f6f6;
 }
 
 /* header */
@@ -30,7 +34,7 @@ header {
     padding: 0 13px;
     width: 100%;
     height: 60px;
-    background-color: lightgreen;
+    /* background-color: lightgreen; */
 
     display: flex;
 
@@ -46,7 +50,7 @@ header input {
     flex: 1;
     border-radius: 3px;
     outline: none;
-    background-color: #202020;
+    background-color: #eaeaea;
     border: 0px;
     font-size: 12px;
 
@@ -65,7 +69,7 @@ header .plus {
 
     border-radius: 3px;
 
-    background-color: #202020;
+    background-color: #eaeaea;
     text-align: center;
     line-height: 27px;
 }
@@ -79,5 +83,9 @@ section {
     width: 100%;
     height: calc(100% - 60px);
     background-color: lightgrey;
+
+    overflow: auto;
+    scrollbar-width: none;
+    /* 隐藏滚动条（Firefox） */
 }
 </style>

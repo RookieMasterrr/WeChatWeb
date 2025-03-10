@@ -1,6 +1,6 @@
 @font-face {
   font-family: "iconfont"; /* Project id  */
-  src: url('iconfont.ttf?t=1741591036262') format('truetype');
+  src: url('iconfont.ttf?t=1741617216832') format('truetype');
 }
 
 .iconfont {
@@ -11,12 +11,24 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-gengduo:before {
+  content: "\f0170";
+}
+
 .icon-31haoyou:before {
   content: "\f0226";
 }
 
+.icon-xiangxiajiantou:before {
+  content: "\e65e";
+}
+
 .icon-ego-box:before {
   content: "\e609";
+}
+
+.icon-smile:before {
+  content: "\e625";
 }
 
 .icon-xiaochengxu:before {
@@ -33,6 +45,14 @@
 
 .icon-shouji_o:before {
   content: "\eb4d";
+}
+
+.icon-jianqie:before {
+  content: "\e675";
+}
+
+.icon-24gl-bubbleDots2:before {
+  content: "\e93e";
 }
 
 .icon-plus:before {
@@ -55,7 +75,7 @@
   content: "\e635";
 }
 
-.icon-gengduo:before {
+.icon-gengduo1:before {
   content: "\e60c";
 }
 
@@ -65,6 +85,10 @@
 
 .icon-souyisou1-copy:before {
   content: "\e516";
+}
+
+.icon-a-118-yane:before {
+  content: "\e8da";
 }
 
 .icon-a-042_shipinhao:before {

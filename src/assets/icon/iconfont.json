@@ -6,6 +6,13 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "159969",
+      "name": "more",
+      "font_class": "gengduo",
+      "unicode": "f0170",
+      "unicode_decimal": 983408
+    },
+    {
       "icon_id": "201692",
       "name": "3.1 好友",
       "font_class": "31haoyou",
@@ -13,11 +20,25 @@
       "unicode_decimal": 983590
     },
     {
+      "icon_id": "630092",
+      "name": "向下箭头",
+      "font_class": "xiangxiajiantou",
+      "unicode": "e65e",
+      "unicode_decimal": 58974
+    },
+    {
       "icon_id": "879167",
       "name": "盒子",
       "font_class": "ego-box",
       "unicode": "e609",
       "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "1471610",
+      "name": "smile",
+      "font_class": "smile",
+      "unicode": "e625",
+      "unicode_decimal": 58917
     },
     {
       "icon_id": "3552293",
@@ -46,6 +67,20 @@
       "font_class": "shouji_o",
       "unicode": "eb4d",
       "unicode_decimal": 60237
+    },
+    {
+      "icon_id": "6352510",
+      "name": "剪切",
+      "font_class": "jianqie",
+      "unicode": "e675",
+      "unicode_decimal": 58997
+    },
+    {
+      "icon_id": "7567712",
+      "name": "24gl-bubbleDots2",
+      "font_class": "24gl-bubbleDots2",
+      "unicode": "e93e",
+      "unicode_decimal": 59710
     },
     {
       "icon_id": "7834345",
@@ -85,7 +120,7 @@
     {
       "icon_id": "17868589",
       "name": "更多",
-      "font_class": "gengduo",
+      "font_class": "gengduo1",
       "unicode": "e60c",
       "unicode_decimal": 58892
     },
@@ -102,6 +137,13 @@
       "font_class": "souyisou1-copy",
       "unicode": "e516",
       "unicode_decimal": 58646
+    },
+    {
+      "icon_id": "28075403",
+      "name": "118-视频通话",
+      "font_class": "a-118-yane",
+      "unicode": "e8da",
+      "unicode_decimal": 59610
     },
     {
       "icon_id": "39051191",

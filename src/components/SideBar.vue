@@ -9,7 +9,7 @@
             <img src="@/assets/dog.jpg">
         </div>
         <section class="up">
-            <div class="item"><span class="iconfont">&#xe622;</span></div>
+            <div class="item"><img src="../assets/pop2.svg" style="width: 100%; height: 85%; color: gray;"></div>
             <div class="item"><span class="iconfont">&#xf0226;</span></div>
             <div class="item"><span class="iconfont">&#xe609;</span></div>
             <div class="item"><span class="iconfont">&#xe7e0;</span></div>
@@ -32,7 +32,7 @@
 
 <style scoped>
 .sidebar {
-    background-color: lightcoral;
+    background-color: #dddddd;
     height: 100%;
     width: 61px;
 }
@@ -76,6 +76,7 @@ section>.item {
 .img>img {
     width: 36px;
     height: 36px;
+    object-fit: cover;
     border-radius: 5px;
 }
 
@@ -110,7 +111,7 @@ section>.item {
     width: 12px;
     height: 12px;
 
-    background-color: red;
+    background-color: #ed695e;
     border-radius: 50%;
 }
 
@@ -118,14 +119,14 @@ section>.item {
     width: 12px;
     height: 12px;
 
-    background-color: yellow;
+    background-color: #f4bf4e;
     border-radius: 50%;
 }
 
 .finder>.max {
     width: 12px;
     height: 12px;
-    background-color: greenyellow;
+    background-color: #61c454;
     border-radius: 50%;
 }
 
@@ -141,6 +142,7 @@ section.up {
     flex-direction: column;
     gap: 20px;
 }
+
 
 /* section down */
 section.down {
