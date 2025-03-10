@@ -48,6 +48,13 @@
       "unicode_decimal": 60237
     },
     {
+      "icon_id": "7834345",
+      "name": "plus",
+      "font_class": "plus",
+      "unicode": "e8fe",
+      "unicode_decimal": 59646
+    },
+    {
       "icon_id": "9261159",
       "name": "看一看",
       "font_class": "kanyikan",

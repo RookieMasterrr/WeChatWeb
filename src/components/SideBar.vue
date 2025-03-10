@@ -46,12 +46,12 @@ section>.item {
 
 .up .iconfont,
 .down .iconfont {
-    font-size: 20px;
+    font-size: 28px;
     color: gray;
 }
 
 .item:hover {
-    transform: scale(1.7);
+    transform: scale(1.5);
     transition: transform 0.3s;
     cursor: pointer;
 }
@@ -66,11 +66,10 @@ section>.item {
 
 /* img */
 .img {
-    margin-top: 36px;
+    margin-top: 45px;
 }
 
 .img:hover {
-    margin-top: 36px;
     cursor: pointer;
 }
 
@@ -132,7 +131,7 @@ section>.item {
 
 /* section up */
 section.up {
-    margin-top: 18px;
+    margin-top: 25px;
     flex: 1;
     line-height: 30px;
 }

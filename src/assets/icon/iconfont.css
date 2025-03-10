@@ -1,6 +1,6 @@
 @font-face {
   font-family: "iconfont"; /* Project id  */
-  src: url('iconfont.ttf?t=1741574410887') format('truetype');
+  src: url('iconfont.ttf?t=1741591036262') format('truetype');
 }
 
 .iconfont {
@@ -33,6 +33,10 @@
 
 .icon-shouji_o:before {
   content: "\eb4d";
+}
+
+.icon-plus:before {
+  content: "\e8fe";
 }
 
 .icon-kanyikan:before {

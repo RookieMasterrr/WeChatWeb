@@ -92,6 +92,12 @@ video {
     vertical-align: baseline;
 }
 
+
+input {
+    padding: 0px;
+    margin: 0px;
+}
+
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
