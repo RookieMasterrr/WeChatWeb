@@ -15,3 +15,7 @@ npm run dev
 ![alt text](illustrate/image.png)
 
 或者可以通过[GitHub Page](https://rookiemasterrr.github.io/WeChatWeb/)访问
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=RookieMasterrr/WeChatWeb&type=Date)](https://www.star-history.com/#RookieMasterrr/WeChatWeb&Date)
