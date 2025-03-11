@@ -5,15 +5,13 @@
             <div class="more"><span class="iconfont">&#xf0170;</span></div>
         </header>
         <div class="content">
-            <HistoryItem />
-            <HistoryItem />
-            <HistoryItem />
-            <HistoryItem />
-            <HistoryItem />
-            <HistoryItem />
-            <HistoryItem />
-            <HistoryItem />
-            <HistoryItem />
+            <HistoryItemOther />
+            <HistoryItemMe />
+            <HistoryItemMe />
+            <HistoryItemMe />
+            <HistoryItemOther />
+            <HistoryItemMe />
+            <HistoryItemOther />
         </div>
         <div class="chatbox">
             <section class="tools">
@@ -30,7 +28,8 @@
 </template>
 
 <script setup lang="ts">
-import HistoryItem from './HistoryItemOther.vue';
+import HistoryItemOther from './HistoryItemOther.vue';
+import HistoryItemMe from './HistoryItemMe.vue';
 </script>
 
 <style scoped>
@@ -69,7 +68,7 @@ header .more {
 .content {
     box-sizing: border-box;
     border-bottom: 1px solid #dedede;
-    height: 750px;
+    height: 60%;
     padding: 10px;
     overflow: auto;
     scrollbar-width: none;
@@ -78,7 +77,7 @@ header .more {
 /* chatbox */
 .chatbox {
     box-sizing: border-box;
-    height: calc(100% - 62px - 600px);
+    height: calc(100% - 62px - 60%);
 }
 
 /* chatbox.tools */
