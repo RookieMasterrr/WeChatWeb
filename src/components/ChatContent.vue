@@ -5,9 +5,11 @@
             <div class="more"><span class="iconfont">&#xf0170;</span></div>
         </header>
         <div class="content">
+            <TimeComponent :time="'16:40'" />
             <HistoryItemOther />
             <HistoryItemMe />
             <HistoryItemMe />
+            <TimeComponent :time="'16:42'" />
             <HistoryItemMe />
             <HistoryItemOther />
             <HistoryItemMe />
@@ -30,6 +32,7 @@
 <script setup lang="ts">
 import HistoryItemOther from './HistoryItemOther.vue';
 import HistoryItemMe from './HistoryItemMe.vue';
+import TimeComponent from './TimeComponent.vue';
 </script>
 
 <style scoped>
