@@ -16,6 +16,7 @@
 <script setup lang="ts">
 import ChatRecords from './ChatRecords.vue';
 
+// @ts-expect-error
 import { records } from '@/datas/records.js'
 
 </script>
