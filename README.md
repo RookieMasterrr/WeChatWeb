@@ -13,3 +13,5 @@ npm run dev
 
 ## 演示
 ![alt text](illustrate/image.png)
+
+或者可以通过[GitHub Page](https://rookiemasterrr.github.io/WeChatWeb/)访问
