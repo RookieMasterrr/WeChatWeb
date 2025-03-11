@@ -4,7 +4,17 @@
             <div class="name">uu</div>
             <div class="more"><span class="iconfont">&#xf0170;</span></div>
         </header>
-        <div class="content"></div>
+        <div class="content">
+            <HistoryItem />
+            <HistoryItem />
+            <HistoryItem />
+            <HistoryItem />
+            <HistoryItem />
+            <HistoryItem />
+            <HistoryItem />
+            <HistoryItem />
+            <HistoryItem />
+        </div>
         <div class="chatbox">
             <section class="tools">
                 <span class="iconfont" style="margin-left: 15px;">&#xe625;</span>
@@ -20,6 +30,7 @@
 </template>
 
 <script setup lang="ts">
+import HistoryItem from './HistoryItemOther.vue';
 </script>
 
 <style scoped>
@@ -58,7 +69,10 @@ header .more {
 .content {
     box-sizing: border-box;
     border-bottom: 1px solid #dedede;
-    height: 600px;
+    height: 750px;
+    padding: 10px;
+    overflow: auto;
+    scrollbar-width: none;
 }
 
 /* chatbox */
