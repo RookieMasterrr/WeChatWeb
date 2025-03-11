@@ -24,7 +24,7 @@ import { records } from '@/datas/records.js'
 <style scoped>
 .friendbar {
     height: 100vh;
-    width: 370px;
+    width: 300px;
     background-color: #f6f6f6;
 }
 

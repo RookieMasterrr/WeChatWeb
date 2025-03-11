@@ -1,8 +1,8 @@
 <template>
     <div class="app">
         <sidebar />
-        <friendbar />
-        <chatcontent />
+        <friendbar class="friendbar" />
+        <chatcontent class="chatcontent" />
     </div>
 </template>
 
@@ -17,5 +17,19 @@ import chatcontent from './components/ChatContent.vue';
     width: 100%;
     height: 100vh;
     display: flex;
+}
+
+@media screen and (max-width: 768px) {
+    .app {
+        flex-wrap: wrap;
+    }
+
+    .friendbar {
+        flex: 1 0 300px;
+    }
+
+    .chatcontent {
+        flex: 1 0 100%;
+    }
 }
 </style>

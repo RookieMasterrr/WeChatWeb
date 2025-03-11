@@ -87,14 +87,4 @@ defineProps(['avatarUrl', 'title', 'time', 'content'])
 
     color: #9b9b9b;
 }
-
-@media (max-width: 500px) {
-    .content {
-        display: none;
-    }
-
-    .record {
-        justify-content: center;
-    }
-}
 </style>
